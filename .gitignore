@@ -1,4 +1,8 @@
 *.py[cod]
+*~*
+
+# sublime text 2 project files
+*sublime*
 
 # C extensions
 *.so
