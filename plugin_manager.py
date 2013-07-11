@@ -11,9 +11,7 @@ logger = logging.getLogger(__name__)
 
 
 class PluginError(Exception):
-    def __init__(self, *args, **kwargs):
-        super(PluginError, self).__init__(*args, **kwargs)
-
+    pass
 
 def contributes_to(id):
     """Decorator to be used in Plugin's methods to mark the method
